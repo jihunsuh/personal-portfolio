@@ -1,0 +1,37 @@
+#HoverBar {
+  width: 90%;
+  height: 90%;
+  margin-left: 50px;
+  padding: 20px;
+  opacity: 0.2;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+#HoverBar:hover {
+  opacity: 1;
+  transform: translateX(-50px);
+}
+
+.button {
+  width: 200px;
+  height: 75px;
+  margin-bottom: 20px;
+  line-height: 80px;
+  font-size: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px grey;
+  transition: text-shadow 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+  text-shadow: 1.5px 1.5px 1px grey;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  transform: translateY(12px);
+  margin: 0px 10px 0px 15px;
+}

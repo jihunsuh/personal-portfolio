@@ -1,0 +1,33 @@
+#root {
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 80px;
+}
+
+#root,
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#w60 {
+  width: 60%;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+#w40 {
+  width: 40%;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+#h60 {
+  border: 1px solid black;
+  height: 60vh;
+}
+
+#h40 {
+  border: 1px solid black;
+  height: 40vh;
+}
