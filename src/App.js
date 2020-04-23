@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 
-import HoverBar from './HoverBar';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
+
+import './App.css';
 
 export default class App extends Component {
   render() {
     return (
       <div id="app">
-        <div id="w60"></div>
-        <div id="w40">
-          <div id="h60">
-            <HoverBar />
-          </div>
-          <div id="h40"></div>
-        </div>
+        <Header />
+        <MainContent />
+        {/* <Footer /> */}
       </div>
     );
   }
