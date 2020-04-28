@@ -4,26 +4,26 @@
   display: flex;
 }
 
-#w60 {
+#Rh {
   width: 60%;
   border: 1px solid black;
   height: 104vh;
 }
 
-#w40 {
+#Lh {
   width: 40%;
   border: 1px solid black;
   height: 104vh;
 }
 
-#h60 {
+#TopRh {
   border: 1px solid black;
   height: 48.6vh;
   font-size: 30px;
   padding: 50px;
 }
 
-#h40 {
+#BottomRh {
   border: 1px solid black;
   height: 40vh;
 }

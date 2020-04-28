@@ -1,11 +1,11 @@
-#ManyHoverBar {
+#SNSBar {
   width: 85%;
   height: 90%;
   margin-left: 50px;
   display: flex;
 }
 
-.Manybutton {
+.SNSbtn {
   width: 200px;
   height: 75px;
   margin-bottom: 20px;
@@ -21,7 +21,7 @@
   opacity: 0.2;
 }
 
-.Manybutton:hover {
+.SNSbtn:hover {
   box-shadow: 5px 5px 5px grey;
   opacity: 1;
   transform: translateX(-30px);

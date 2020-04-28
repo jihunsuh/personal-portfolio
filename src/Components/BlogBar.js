@@ -1,18 +1,18 @@
 import React from 'react';
-import './HoverBar.css';
+import './BlogBar.css';
 
-export default function HoverBar(props) {
+export default function BlogBar(props) {
   return (
-    <div id="HoverBar">
-      <div class="button">
+    <div id="BlogBar">
+      <div class="Bbtn">
         <img src="./img/GitHub-Mark.png" alt="github" class="icon" />
         Github
       </div>
-      <div class="button">
+      <div class="Bbtn">
         <img src="./img/tistory-logo.svg" alt="tistory" class="icon" />
         Tistory
       </div>
-      <div class="button">Velog</div>
+      <div class="Bbtn">Velog</div>
     </div>
   );
 }

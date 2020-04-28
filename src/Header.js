@@ -1,16 +1,16 @@
 import React from 'react';
-import HoverBar from './Components/ManyHoverBar';
+import SNSBar from './Components/SNSBar';
 
 import './Header.css';
 
 export default function Header() {
   return (
     <div id="header">
-      <div id="w40">
-        <img src="./img/MyPicture.jpg" alt="picture" id="picture" />
+      <div id="Lh">
+        <img src="./img/MyPicture.jpg" alt="myPicture" id="picture" />
       </div>
-      <div id="w60">
-        <div id="h60">
+      <div id="Rh">
+        <div id="TopRh">
           <b>
             모르는 것을 찾아내고 자신의 생각을 코드로 구현하며 사는 개발자가 되기 위해 하루하루
             노력하고 있습니다.
@@ -24,8 +24,8 @@ export default function Header() {
             2020.3 ~ 2020.6 CSE
           </pre>
         </div>
-        <div id="h40">
-          <HoverBar />
+        <div id="BottomRh">
+          <SNSBar />
         </div>
       </div>
     </div>
